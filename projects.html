@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap"
+        type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header header_main">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-inner">
+                    <div class="row align-items-center">
+                        <div class="header-col_logo col-auto">
+                            <div class="header-logo">
+                                <a href="#">
+                                    <img class="header-logo-img" src="img/germes_logo.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header-col_menu col">
+                            <div class="d-none d-lg-block">
+                                <ul class="header-menu d-lg-flex align-items-lg-center justify-content-lg-between">
+                                    <li class="header-menu-item"><a href="#" class="header-menu-item-link">Доставка</a>
+                                    </li>
+                                    <li class="header-menu-item"><a href="#" class="header-menu-item-link">Оплата</a>
+                                    </li>
+                                    <li class="header-menu-item"><a href="#" class="header-menu-item-link">Услуги</a>
+                                    </li>
+                                    <li class="header-menu-item"><a href="#" class="header-menu-item-link">Статьи</a>
+                                    </li>
+                                    <li class="header-menu-item"><a href="#" class="header-menu-item-link">Вакансии</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header-col_shop col-auto d-none d-lg-block">
+                            <div class="header-shop">
+                                <div class="header-shop-inner d-flex align-items-center justify-content-lg-between">
+                                    <a href="#"
+                                        class="header-shop-btn header-shop-btn_favorites d-flex align-items-center">
+                                        <span class="header-shop-btn-icon"></span>
+                                        <span class="header-shop-btn-title d-lg-none">Избранное</span>
+                                    </a>
+                                    <a href="#" class="header-shop-btn header-shop-btn_cart d-flex align-items-center">
+                                        <span class="header-shop-btn-icon"></span>
+                                        <span class="header-shop-btn-title d-lg-none">Корзина</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-col_contact col-auto">
+                            <div class="header-contact">
+                                <div class="header-contact-phone">
+                                    <a href="tel:+78432039343" class="header-contact-phone-link mgo_number">8 (843)
+                                        203-93-43</a>
+                                </div>
+                                <div class="header-contact-callback d-none d-lg-block">
+                                    <a href="#" class="header-contact-callback-link">заказать обратный звонок</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-col_open_nav col-auto d-lg-none">
+                            <a class="header-open_nav" href="#" title="Навигация"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav d-lg-none" id="nav">
+            <div class="container">
+                <div class="nav-top">
+                    <div class="nav-top-logo">
+                        <a href="#">
+                            <img class="nav-top-logo-img" src="img/germes_logo.svg" alt="">
+                        </a>
+                    </div>
+                    <a class="nav-close" href="#" title="Закрыть"></a>
+                </div>
+                <div class="nav-search">
+                    <form class="header-search" action="#">
+                        <input type="text" name="q" class="header-search-input" value=""
+                            placeholder="Введите название товара">
+                        <label class="header-search-button" for="search-submit" title="Найти">
+                            <input id="search-submit" type="submit" value="Найти" hidden>
+                        </label>
+                    </form>
+                </div>
+                <div class="nav-menu">
+                    <ul class="header-menu d-lg-flex align-items-lg-center justify-content-lg-between">
+                        <li class="header-menu-item"><a href="#" class="header-menu-item-link">Доставка</a></li>
+                        <li class="header-menu-item"><a href="#" class="header-menu-item-link">Оплата</a></li>
+                        <li class="header-menu-item"><a href="#" class="header-menu-item-link">Услуги</a></li>
+                        <li class="header-menu-item"><a href="#" class="header-menu-item-link">Статьи</a></li>
+                        <li class="header-menu-item"><a href="#" class="header-menu-item-link">Вакансии</a></li>
+                    </ul>
+                </div>
+                <div class="nav-btns">
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <a href="https://www.td-germes.ru/index.html#modal-callback"
+                                class="nav-btns-item btn full">Обратный звонок</a>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <a href="https://www.td-germes.ru/index.html#modal-wholesale"
+                                class="nav-btns-item btn btn_transparent full">Оптовый заказ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="container">
+                <div class="header-nav-outer">
+                    <div class="header-nav-inner d-table d-lg-flex align-items-lg-center justify-content-lg-between">
+                        <div class="header-nav-item header-nav-item_catalog">
+                            <a class="header-nav-item-catalog" href="#">Каталог <span
+                                    class="d-lg-none">товаров</span></a>
+                        </div>
+                        <div class="header-nav-item header-nav-item_action">
+                            <a href="#" class="header-nav-item-action">Акции</a>
+                        </div>
+                        <div class="header-nav-item d-none d-lg-block">
+                            <form class="header-search" action="#">
+                                <input type="text" name="q" class="header-search-input" value=""
+                                    placeholder="Введите название товара">
+                                <label class="header-search-button" for="search-submit" title="Найти">
+                                    <input id="#" type="submit" value="Найти" hidden>
+                                </label>
+                            </form>
+                        </div>
+                        <div class="header-nav-item header-nav-item_link">
+                            <a href="https://www.td-germes.ru/about-the-company/" class="header-nav-item-link">О
+                                компании</a>
+                        </div>
+                        <div class="header-nav-item header-nav-item_link">
+                            <a href="https://www.td-germes.ru/contacts/" class="header-nav-item-link">Контакты</a>
+                        </div>
+                        <div class="header-nav-item d-none d-lg-block">
+                            <a href="https://www.td-germes.ru/index.html#modal-wholesale"
+                                class="header-nav-item-order">Оптовый заказ</a>
+                        </div>
+                        <div class="header-nav-item header-nav-item_btn_search d-lg-none">
+                            <a href="https://www.td-germes.ru/index.html#search" class="header-nav-item-search"
+                                title="Поиск по сайту"></a>
+                        </div>
+                    </div>
+                    <div class="header-search-mobile d-lg-none" id="search">
+                        <form class="header-search" action="https://www.td-germes.ru/catalog/">
+                            <input type="text" name="q" class="header-search-input" value=""
+                                placeholder="Введите название товара">
+                            <label class="header-search-button" for="search-submit" title="Найти">
+                                <input id="##" type="submit" value="Найти" hidden>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="path d-none d-lg-block">
+                <span class="path-item" id="bx_breadcrumb_0">
+
+                    <a href="#" title="Главная" itemprop="url">
+                        <span itemprop="name">Главная</span>
+                    </a>
+                    <meta itemprop="position" content="1" />
+                </span>
+                <span class="path-item active">
+
+                    <span itemprop="name">Проекты</span>
+                    <meta itemprop="position" content="2" />
+                </span></div>
+            <h1 class="main-h1">Проекты</h1>
+            <ul class="links d-flex flex-wrap">
+                <li class="links-item"><a href="index.html" class="links-item-link active">Все проекты</a></li>
+                <li class="links-item"><a href="#" class="links-item-link">Административные здания</a></li>
+                <li class="links-item"><a href="#" class="links-item-link">Загородные дома</a></li>
+                <li class="links-item"><a href="#" class="links-item-link">Многоэтажные дома</a></li>
+            </ul>
+            <div class="projects">
+                <div class="row">
+                    <div class="projects-item-col col-6 col-md-4" id="bx_3218110189_9151">
+                        <div class="projects-item lazy"
+                            data-bg="/upload/resize_cache/iblock/d82/440_270_2/SAN_6368.jpg">
+                            <img src="#" alt="Торгово-офисный центр Дубрава">
+                            <div class="projects-item-over d-flex align-items-center">
+                                <div class="projects-item-inner">
+                                    <div class="projects-item-title">Торгово-офисный центр Дубрава</div>
+                                    <div class="projects-item-action">
+                                        <a href="#"
+                                            class="projects-item-btn btn btn_small btn_transparent btn_fix">Смотреть
+                                            галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-item-col col-6 col-md-4" id="###">
+                        <div class="projects-item lazy"
+                            data-bg="/upload/resize_cache/iblock/d82/440_270_2/SAN_6368.jpg">
+                            <img src="#" alt="Аэропорт Казань">
+                            <div class="projects-item-over d-flex align-items-center">
+                                <div class="projects-item-inner">
+                                    <div class="projects-item-title">Аэропорт Казань</div>
+                                    <div class="projects-item-action">
+                                        <a href="#"
+                                            class="projects-item-btn btn btn_small btn_transparent btn_fix">Смотреть
+                                            галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-item-col col-6 col-md-4" id="####">
+                        <div class="projects-item lazy"
+                            data-bg="/upload/resize_cache/iblock/d82/440_270_2/SAN_6368.jpg">
+                            <img src="#" alt="Жилой дом">
+                            <div class="projects-item-over d-flex align-items-center">
+                                <div class="projects-item-inner">
+                                    <div class="projects-item-title">Жилой дом</div>
+                                    <div class="projects-item-action">
+                                        <a href="#"
+                                            class="projects-item-btn btn btn_small btn_transparent btn_fix">Смотреть
+                                            галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects-item-col col-6 col-md-4" id="#####">
+                        <div class="projects-item lazy"
+                            data-bg="/upload/resize_cache/iblock/d82/440_270_2/SAN_6368.jpg">
+                            <img src="#" alt="Торгово-офисный центр Дубрава">
+                            <div class="projects-item-over d-flex align-items-center">
+                                <div class="projects-item-inner">
+                                    <div class="projects-item-title">Торгово-офисный центр Дубрава</div>
+                                    <div class="projects-item-action">
+                                        <a href="#"
+                                            class="projects-item-btn btn btn_small btn_transparent btn_fix">Смотреть
+                                            галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-item-col col-6 col-md-4" id="######">
+                        <div class="projects-item lazy"
+                            data-bg="/upload/resize_cache/iblock/d82/440_270_2/SAN_6368.jpg">
+                            <img src="#" alt="Аэропорт Казань">
+                            <div class="projects-item-over d-flex align-items-center">
+                                <div class="projects-item-inner">
+                                    <div class="projects-item-title">Аэропорт Казань</div>
+                                    <div class="projects-item-action">
+                                        <a href="#"
+                                            class="projects-item-btn btn btn_small btn_transparent btn_fix">Смотреть
+                                            галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-item-col col-6 col-md-4" id="#######">
+                        <div class="projects-item lazy"
+                            data-bg="/upload/resize_cache/iblock/d82/440_270_2/SAN_6368.jpg">
+                            <img src="#" alt="Жилой дом">
+                            <div class="projects-item-over d-flex align-items-center">
+                                <div class="projects-item-inner">
+                                    <div class="projects-item-title">Жилой дом</div>
+                                    <div class="projects-item-action">
+                                        <a href="#"
+                                            class="projects-item-btn btn btn_small btn_transparent btn_fix">Смотреть
+                                            галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects-item-col col-6 col-md-4" id="#########">
+                        <div class="projects-item lazy"
+                            data-bg="/upload/resize_cache/iblock/d82/440_270_2/SAN_6368.jpg">
+                            <img src="#" alt="Торгово-офисный центр Дубрава">
+                            <div class="projects-item-over d-flex align-items-center">
+                                <div class="projects-item-inner">
+                                    <div class="projects-item-title">Торгово-офисный центр Дубрава</div>
+                                    <div class="projects-item-action">
+                                        <a href="#"
+                                            class="projects-item-btn btn btn_small btn_transparent btn_fix">Смотреть
+                                            галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-item-col col-6 col-md-4" id="#############">
+                        <div class="projects-item lazy"
+                            data-bg="/upload/resize_cache/iblock/d82/440_270_2/SAN_6368.jpg">
+                            <img src="#" alt="Аэропорт Казань">
+                            <div class="projects-item-over d-flex align-items-center">
+                                <div class="projects-item-inner">
+                                    <div class="projects-item-title">Аэропорт Казань</div>
+                                    <div class="projects-item-action">
+                                        <a href="#"
+                                            class="projects-item-btn btn btn_small btn_transparent btn_fix">Смотреть
+                                            галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-item-col col-6 col-md-4" id="############">
+                        <div class="projects-item lazy"
+                            data-bg="/upload/resize_cache/iblock/d82/440_270_2/SAN_6368.jpg">
+                            <img src="#" alt="Жилой дом">
+                            <div class="projects-item-over d-flex align-items-center">
+                                <div class="projects-item-inner">
+                                    <div class="projects-item-title">Жилой дом</div>
+                                    <div class="projects-item-action">
+                                        <a href="#"
+                                            class="projects-item-btn btn btn_small btn_transparent btn_fix">Смотреть
+                                            галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects-item-col col-6 col-md-4" id="#################">
+                        <div class="projects-item lazy"
+                            data-bg="/upload/resize_cache/iblock/d82/440_270_2/SAN_6368.jpg">
+                            <img src="#" alt="Торгово-офисный центр Дубрава">
+                            <div class="projects-item-over d-flex align-items-center">
+                                <div class="projects-item-inner">
+                                    <div class="projects-item-title">Торгово-офисный центр Дубрава</div>
+                                    <div class="projects-item-action">
+                                        <a href="#"
+                                            class="projects-item-btn btn btn_small btn_transparent btn_fix">Смотреть
+                                            галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-item-col col-6 col-md-4" id="##############">
+                        <div class="projects-item lazy"
+                            data-bg="/upload/resize_cache/iblock/d82/440_270_2/SAN_6368.jpg">
+                            <img src="#" alt="Аэропорт Казань">
+                            <div class="projects-item-over d-flex align-items-center">
+                                <div class="projects-item-inner">
+                                    <div class="projects-item-title">Аэропорт Казань</div>
+                                    <div class="projects-item-action">
+                                        <a href="#"
+                                            class="projects-item-btn btn btn_small btn_transparent btn_fix">Смотреть
+                                            галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-item-col col-6 col-md-4" id="##################">
+                        <div class="projects-item lazy"
+                            data-bg="/upload/resize_cache/iblock/d82/440_270_2/SAN_6368.jpg">
+                            <img src="#" alt="Жилой дом">
+                            <div class="projects-item-over d-flex align-items-center">
+                                <div class="projects-item-inner">
+                                    <div class="projects-item-title">Жилой дом</div>
+                                    <div class="projects-item-action">
+                                        <a href="#"
+                                            class="projects-item-btn btn btn_small btn_transparent btn_fix">Смотреть
+                                            галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects-item-col col-6 col-md-4" id="#####################">
+                        <div class="projects-item lazy"
+                            data-bg="/upload/resize_cache/iblock/d82/440_270_2/SAN_6368.jpg">
+                            <img src="#" alt="Торгово-офисный центр Дубрава">
+                            <div class="projects-item-over d-flex align-items-center">
+                                <div class="projects-item-inner">
+                                    <div class="projects-item-title">Торгово-офисный центр Дубрава</div>
+                                    <div class="projects-item-action">
+                                        <a href="#"
+                                            class="projects-item-btn btn btn_small btn_transparent btn_fix">Смотреть
+                                            галерею</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pages">
+
+
+
+            <a class="pages-item pages-item_num active">Показать ещё</a>
+
+        </div>
+
+    </main>
+
+    <section>
+        <div class="carousel">
+            <img src="img/Group181.svg" alt="Карусель">
+        </div>
+    </section>
+
+    <footer class="footer" id="contacts">
+        <div class="footer-top">
+            <div class="container">
+                <div class="d-none d-lg-flex row align-items-center">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="footer-nav">
+                                    <div class="footer-nav-title">Организация</div>
+                                    <ul class="footer-nav-menu">
+                                        <li class="footer-nav-menu-item">
+                                            <a href="#" class="selected">О компании</a>
+                                        </li>
+                                        <li class="footer-nav-menu-item">
+                                            <a href="#" class="selected">Услуги</a>
+                                        </li>
+                                        <li class="footer-nav-menu-item">
+                                            <a href="#" class="selected">Статьи</a>
+                                        </li>
+                                        <li class="footer-nav-menu-item">
+                                            <a href="#" class="selected">Вакансии</a>
+                                        </li>
+                                        <li class="footer-nav-menu-item">
+                                            <a href="#" class="selected">Отзывы</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer-nav">
+                                    <div class="footer-nav-title">Как купить</div>
+                                    <ul class="footer-nav-menu">
+                                        <li class="footer-nav-menu-item">
+                                            <a href="#" class="selected">Доставка</a>
+                                        </li>
+                                        <li class="footer-nav-menu-item">
+                                            <a href="#" class="selected">Оплата</a>
+                                        </li>
+                                        <li class="footer-nav-menu-item">
+                                            <a href="#" class="selected">Проекты</a>
+                                        </li>
+                                        <li class="footer-nav-menu-item">
+                                            <a href="#" class="selected">Контакты</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer-nav">
+                                    <div class="footer-nav-title">Мы на связи</div>
+                                    <ul class="footer-nav-menu">
+                                        <li class="footer-nav-menu-item">
+                                            <a href="#" class="footer-tel mgo_number">8 (843)203-93-43</a>
+                                        </li>
+                                        <li class="footer-nav-menu-item">
+                                            <a href="#" class="footer-email">info@td-germes.ru</a>
+                                        </li>
+                                        <li class="footer-nav-menu-item">
+                                            <a class="footer-social footer-social_whatsapp" href="#"></a>
+                                            <a class="footer-social footer-social_telegram" href="#"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer-nav">
+                                    <div class="footer-nav-title">Наш адрес</div>
+                                    <ul class="footer-nav-menu">
+                                        <li class="footer-nav-menu-item">
+                                            <span class="footer-city">Казань</span>
+                                        </li>
+                                        <li class="footer-nav-menu-item">
+                                            <a class="footer-address" href="#">ул. Сары Садыковой 30, 2 этаж</a>
+                                        </li>
+                                        <li class="footer-nav-menu-item">
+                                            <span class="footer-worktime">Пн - Пт c 8:30 до 17:30 <br>Суббота с 9:00 до
+                                                14:00</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-col_order col-auto">
+                        <div class="footer-order">
+                            <a href="#" class="btn btn_fix footer-order-btn">Оптовый заказ</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-lg-none">
+                    <ul class="footer-nav-menu">
+                        <li class="footer-nav-menu-item">
+                            <a href="#" class="footer-tel mgo_number">8 (843) 203-93-43</a>
+                            <a href="#" class="footer-email">info@td-germes.ru</a>
+                        </li>
+                        <li class="footer-nav-menu-item footer-nav-menu-item_map">
+                            <span class="footer-city">Казань</span><br>
+                            <a class="footer-address" href="#">ул. Сары Садыковой 30, 2 этаж</a>
+                        </li>
+                        <li class="footer-nav-menu-item">
+                            <a class="footer-question" href="#">- задайте вопрос</a>
+                        </li>
+                        <li class="footer-nav-menu-item">
+                            <a class="footer-callback d-flex align-items-center justify-content-center" href="#">
+                                <span class="footer-callback-title">Заказать обратный звонок</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="footer-copyright">
+                            © 2012 — 2024, ООО «ТК «Гермес»
+                            <br>
+                            Сайт <a href="#">https://td-germes.ru/</a> носит исключительно
+                            информационный характер и ни при каких условиях не является публичной офертой.<br>
+                            Для получения информации о стоимости и наличии товаров, пожалуйста, обращайтесь в отдел
+                            продаж компании Гермес.<br>
+                        </div>
+                    </div>
+                    <div class="d-none d-lg-block col-auto">
+                        <div class="footer-paysystems">
+                            <div class="row align-items-end">
+                                <div class="col-auto">
+                                    <img src="img/logos_visaelectron.svg" class="footer-paysystems-item" width="119"
+                                        height="53" alt="Visa">
+                                </div>
+                                <div class="col-auto">
+                                    <img src="img/logos_mastercard.svg" class="footer-paysystems-item" width="67"
+                                        height="53" alt="Mastercard">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
